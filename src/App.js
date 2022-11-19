@@ -51,6 +51,8 @@ export default function ShoppingCart() {
   }
 
   return (
+    <div>
+      <h1>Challenges 1 & 2</h1>
     <ul>
       {products.map(product => (
         <li key={product.id}>
@@ -69,5 +71,6 @@ export default function ShoppingCart() {
         </li>
       ))}
     </ul>
+    </div>
   );
 }
