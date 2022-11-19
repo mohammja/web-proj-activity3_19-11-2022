@@ -7,7 +7,9 @@ import App2 from './App3';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h1>Challenges 1 & 2</h1>
     <App />
+    <h1>Challenge 3</h1>
     <App2 />
   </React.StrictMode>
 );
